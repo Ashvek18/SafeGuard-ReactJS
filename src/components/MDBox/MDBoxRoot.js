@@ -87,6 +87,7 @@ export default styled(Box)(({ theme, ownerState }) => {
     backgroundValue = palette[bgColor] ? palette[bgColor].main : greyColors[bgColor];
   } else {
     backgroundValue = bgColor;
+   
   }
 
   // color value
